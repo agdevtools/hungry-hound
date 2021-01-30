@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HungryhoundApplication {
+public class HungryHoundApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HungryhoundApplication.class, args);
+		SpringApplication.run(HungryHoundApplication.class, args);
 	}
 
 }
