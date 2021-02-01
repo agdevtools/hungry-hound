@@ -6,15 +6,14 @@ import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 
 @Service
-
 public class Consumer {
 
     private final Logger logger = LoggerFactory.getLogger(Consumer.class);
 
-    @KafkaListener(topics = "footie", groupId = "jacek-japila-pl")
+    @KafkaListener(topics = "footie23", groupId = "jacek-japila-pl")
     public void consume(String message){
 
-        logger.info(String.format("$$$ -&gt; Consumed Message -&gt; %s",message));
+        logger.info(String.format("$$$ -> Consumed Message -> %s",message));
 
     }
 }

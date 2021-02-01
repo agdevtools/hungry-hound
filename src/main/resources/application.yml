@@ -3,7 +3,8 @@ server:
 spring:
   kafka:
     consumer:
-      bootstrap-servers: 192.168.1.126:49173
+#      bootstrap-servers: 192.168.1.126:9092
+      bootstrap-servers: 109.146.45.21:9092
       group-id: jacek-japila-pl
       auto-offset-reset: earliest
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
