@@ -13,6 +13,8 @@ repositories {
 }
 
 dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	compile 'io.netty:netty-all:4.0.36.Final'
 	implementation 'org.springframework.boot:spring-boot-starter'
 	implementation 'org.springframework.kafka:spring-kafka'
 	implementation 'org.springframework:spring-web'
